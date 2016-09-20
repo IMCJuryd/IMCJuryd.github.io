@@ -1,5 +1,5 @@
 # IMCJuryd.github.io
-My portfolio
+Game AI HW1 Dynamic Movement
 
 The project introduce a basic dynamic movement to viewers including 
 dynamic pursue, dynamci evade, dynamic wander and path following.
