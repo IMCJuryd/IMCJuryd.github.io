@@ -6,9 +6,12 @@ Conecheck taks two objects and a coneangle. It checks if one object is in a cert
 
 CollisionPrediction taks one Character and a set of objects. It checks the time to reach cloest distance between Character and each object in the set and returns the cloest object. Then apply evasion of Character from this object.
 
+ConeCheck and CollisionPrediction are switched every 5000 frames and a mesage will shown on screen which algorithm it is running.
+
 Pathfollow and evasion are two algorithms inherited from hw1. Pathfollow takes in a Character a set of dots, considering that is a path. It then checks the cloest dot to the Character and apply seek to the dot.
 
 Evasion takes two objects, a Character and a Target. It predicts the future point of target and apply flee to Character from that point. 
+
 
 The program turns out to have one object in each group going ahead, and the rest just turn into a group and go forward together. 
 
